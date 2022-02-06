@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ninad Abdur Rahman</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Custom css file -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+
+</head>
+<body>
+
+    <div class="nav-bar">
+        
+            <a href="index.html">Home</a>
+            <a href="#profile">About</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#manga-list">My Top 5 Manga</a>
+        
+    </div>
+    <div class="header-info">
+        <h1>Hey, I'm Ninad</h1>
+        <img src="img/ninad.jpg" alt="My Picture" class="profile-pic">
+    </div>
+        
+    <div id="profile" class="profile">        
+        <h1>My Info</h1>
+        <p>
+            Hello everyone, my name is Ninad Abdur Rahman.
+            I'm an undergraduate student studying at 
+            <a href="https://www.bracu.ac.bd/">BRAC University</a> 
+            Department of Computer Science.
+        </p>
+        <p>
+            I am learning web developing through one of the courses offered by Brac
+            <a href="https://piazza.com/class/kyzuq0kk9r460x">CSE391</a>.
+        </p>
+        <h2>Favorite Quote</h2>
+        <img src="img/nebula.jpg" alt="Nebula" class="profile-pic">
+        <p>
+            "Life is short enjoy every moment!"
+        </p>
+        <p>
+            While there are a lot of great quotes that you can find inspiration from this one is my favorite because it reminds me of some very important things.
+            It reminds me that all of us have a limited time and also that we spend most of it without appreciating what we have.
+            So while I stress thinking about the unknown future I also remember to enjoy the present as much as possible.
+            We are but an insignificant cogwheel in this enormous universe. So let us not fret as we will be where we are meant to be!
+            Hope you can now also think a little differently from before!
+        </p>
+    </div>
+    <div id="hobbies" class="hobbies">
+        <h1>Hobbies</h1>
+        <ul>
+            <li>Painting</li>
+            <li>Reading Books & Manga</li>
+            <li>Playing Outdoors</li>
+        </ul>
+        <img src="img/my_art.png" alt="My painting" class="profile-pic">
+        <p>
+            My father is an artist and so I had grown to love Drawing and Painting from a very early age. While my love for it has not changed it is quite hard to find time and motivation to dedicate to an art piece. 
+        </p>
+        <p>
+            There are some activities that I love watching on Youtube and would love to have them as hobbies in future. Currently as a student it is just not feasible for me. I would like to introduce you to one such interesting activity, it is called Gunpla Kit modelling. 
+            <br> <a href="https://youtu.be/eosYlizIuiI">Gunpla Diorama</a>
+        </p>
+
+    </div>
+    <div id="manga-list">
+        <h1>My Personal Top 5 Manga List</h1>
+        <ol>
+            <li>One Piece</li>
+            <li>20th Century Boys</li>
+            <li>Death Note</li>
+            <li>Akira</li>
+            <li>Dr Stone</li>
+        </ol>
+    </div>
+
+    <h1 id ="trav" class ='margin-left'>Books I've Read</h1>
+      <table>
+        <tr>
+          <th>Book</th>
+          <th>Author</th>
+        </tr>
+        <tr>
+          <td>Kite Runner</td>
+          <td>Khaled Hosseini</td>
+        </tr>
+        <tr>
+          <td>Lord of The Rings</td>
+          <td>R.R. Tolkien</td>
+        </tr>
+        <tr>
+          <td>Godfather</td>
+          <td>Mario Puzo</td>
+        </tr>
+        
+      </table>
+
+    <p id="modified">
+
+    </p> 
+
+    
+    <script>
+      var x = document.lastModified;
+      var y = document.URL;
+      document.getElementById("modified").innerHTML = `This page was last modified on: ${x} and located at ${y}` ;
+      
+    </script>
+
+</body>
+</html>
